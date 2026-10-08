@@ -12,42 +12,6 @@
       "Point": {
         "Key": "Autodesk.DesignScript.Geometry.Point",
         "Value": "ProtoGeometry.dll"
-      },
-      "List": {
-        "Key": "List",
-        "Value": "BuiltIn.ds"
-      },
-      "Line": {
-        "Key": "Autodesk.DesignScript.Geometry.Line",
-        "Value": "ProtoGeometry.dll"
-      },
-      "PolyCurve": {
-        "Key": "Autodesk.DesignScript.Geometry.PolyCurve",
-        "Value": "ProtoGeometry.dll"
-      },
-      "Geometry": {
-        "Key": "Autodesk.DesignScript.Geometry.Geometry",
-        "Value": "ProtoGeometry.dll"
-      },
-      "Circle": {
-        "Key": "Autodesk.DesignScript.Geometry.Circle",
-        "Value": "ProtoGeometry.dll"
-      },
-      "Polygon": {
-        "Key": "Autodesk.DesignScript.Geometry.Polygon",
-        "Value": "ProtoGeometry.dll"
-      },
-      "Autodesk.Curve": {
-        "Key": "Autodesk.DesignScript.Geometry.Curve",
-        "Value": "ProtoGeometry.dll"
-      },
-      "Autodesk.DesignScript.Geometry.Curve": {
-        "Key": "Autodesk.DesignScript.Geometry.Curve",
-        "Value": "ProtoGeometry.dll"
-      },
-      "List.__Create": {
-        "Key": "List",
-        "Value": "BuiltIn.ds"
       }
     }
   },
@@ -57,12 +21,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "[0,0,0,0,0,0,0];",
+      "Code": "[0,0,0,0];",
       "Id": "467a59b5b92a4918a729787858202f39",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "cdbbe4be5e3e4f2a99d7e2273f20e575",
+          "Id": "aae9a9bd8d684cc1859f18d264995cf9",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -77,12 +41,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "[27,27,27,27,27,27,27];",
+      "Code": "[16,16,16,16];",
       "Id": "53c6c39bdc7947f7a35543fb4833327f",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "4b84bba49f9345ce87446abe6e250bc2",
+          "Id": "6eef586ac8f743ea9f0af8ffd6f4a7e9",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -97,12 +61,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "2;",
+      "Code": "5;",
       "Id": "986d75320ffb4fc49f2cf47abd9b30a1",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "f9f73f1f7bde4b4b9dbb9cb7286a5ddd",
+          "Id": "ca3b717757554d59a39ac5e642ec0868",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -510,12 +474,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "2;",
+      "Code": "4;",
       "Id": "6a0ed887676d4ebc964def8b8f928e99",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "1974adc702b840cfbf3f5b6f9fef8f4d",
+          "Id": "36cbb0937ddc442e90e5468da8e72534",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -588,91 +552,31 @@
       ],
       "Replication": "Auto",
       "Description": ""
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
-      "FunctionSignature": "c8ede44c-d1b4-4160-91b8-e0f3dd3c572b",
-      "FunctionType": "Graph",
-      "NodeType": "FunctionNode",
-      "Id": "f2a1a61f7a7f40138defef6f4ce50ab7",
-      "Inputs": [
-        {
-          "Id": "be8ea38ba9034fe8909fe6326e6eee7d",
-          "Name": "original_list",
-          "Description": "var[]..[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "61abcc7393f945688792e88e3b6c8799",
-          "Name": "FamilyName",
-          "Description": "string",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "782457d2c19e4f9eb87e0cca35b2cdfd",
-          "Name": "\"MODEL SUCCESFULLY CREATED ON REVIT\"",
-          "Description": "return value",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": ""
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
-      "NodeType": "CodeBlockNode",
-      "Code": "\"CHS-Circular Hollow Sections(Cold)\";",
-      "Id": "228d0c184d9641829da93b2e96ec31d8",
-      "Inputs": [],
-      "Outputs": [
-        {
-          "Id": "f018c9eb4aca4da6ae5813f8bc172d1e",
-          "Name": "",
-          "Description": "Value of expression at line 1",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Allows for DesignScript code to be authored directly"
     }
   ],
   "Connectors": [
     {
-      "Start": "cdbbe4be5e3e4f2a99d7e2273f20e575",
+      "Start": "aae9a9bd8d684cc1859f18d264995cf9",
       "End": "645c9841726544fc97307240ea614bb3",
-      "Id": "c01324d885324666869b1a756f88e864",
+      "Id": "6c9e06197433436a9e6e74719f10a2cd",
       "IsHidden": "False"
     },
     {
-      "Start": "4b84bba49f9345ce87446abe6e250bc2",
+      "Start": "6eef586ac8f743ea9f0af8ffd6f4a7e9",
       "End": "e4473d23e49843c2930bb266894d5f06",
-      "Id": "d462e2e0397c4a24929a8db7a5945bad",
+      "Id": "6e8ae944c8e248f18a86b11a00f4124b",
       "IsHidden": "False"
     },
     {
-      "Start": "f9f73f1f7bde4b4b9dbb9cb7286a5ddd",
+      "Start": "ca3b717757554d59a39ac5e642ec0868",
       "End": "069ae2a7cc4b477c8c759cd89e2fdfb6",
-      "Id": "0b87131e95794dd3918c26764bb7dd4a",
+      "Id": "f85e19ad59ab460ca046e51d5d488243",
       "IsHidden": "False"
     },
     {
-      "Start": "f9f73f1f7bde4b4b9dbb9cb7286a5ddd",
+      "Start": "ca3b717757554d59a39ac5e642ec0868",
       "End": "a1cb619af855447abbdafde3d098dcb2",
-      "Id": "eaf3ce1b0783488c9ddbd9b4074ec64e",
+      "Id": "7bfc028ad0194f4b9b1831552066870b",
       "IsHidden": "False"
     },
     {
@@ -724,12 +628,6 @@
       "IsHidden": "False"
     },
     {
-      "Start": "d7c86f425985428d95d5f4f791756c6c",
-      "End": "be8ea38ba9034fe8909fe6326e6eee7d",
-      "Id": "cc09059af44545cdabf38929de1ea10e",
-      "IsHidden": "False"
-    },
-    {
       "Start": "524834277fe0436ca346dad3a3479e60",
       "End": "d775aa4e89a647dd96456aaef95e4f56",
       "Id": "64e2f51497374cc9b51b2bcab6914ec0",
@@ -742,9 +640,9 @@
       "IsHidden": "False"
     },
     {
-      "Start": "1974adc702b840cfbf3f5b6f9fef8f4d",
+      "Start": "36cbb0937ddc442e90e5468da8e72534",
       "End": "1381f6dbf3d84dde9faa58cb683e56a7",
-      "Id": "24dbd516510a486aa0d9d0d79a1978eb",
+      "Id": "d489d0993b064ae5b3b9fe7372d54254",
       "IsHidden": "False"
     },
     {
@@ -758,19 +656,12 @@
       "End": "375525a83b1c431d8ba9dd8c6b548774",
       "Id": "105e402ebdc947a682e3d3c7ab18d4f8",
       "IsHidden": "False"
-    },
-    {
-      "Start": "f018c9eb4aca4da6ae5813f8bc172d1e",
-      "End": "61abcc7393f945688792e88e3b6c8799",
-      "Id": "b22622e84ad146cd9081505bcbcf6c1b",
-      "IsHidden": "False"
     }
   ],
   "Dependencies": [
     "f23887a5-6312-4b08-9bee-a7e87f56be36",
     "1352a9cd-7c40-4ce1-81b6-77af04dae5e0",
-    "7dfbaf51-2007-4768-b774-cd6b1eeadbf9",
-    "c8ede44c-d1b4-4160-91b8-e0f3dd3c572b"
+    "7dfbaf51-2007-4768-b774-cd6b1eeadbf9"
   ],
   "NodeLibraryDependencies": [
     {
@@ -799,13 +690,6 @@
       "ReferenceType": "DYFFile",
       "Nodes": [
         "0d001f12630249698f17e2ebe97aa06d"
-      ]
-    },
-    {
-      "Name": "RevitCreator.dyf",
-      "ReferenceType": "DYFFile",
-      "Nodes": [
-        "f2a1a61f7a7f40138defef6f4ce50ab7"
       ]
     }
   ],
@@ -844,9 +728,9 @@
     },
     "Camera": {
       "Name": "_Background Preview",
-      "EyeX": 89.431215286254883,
-      "EyeY": 16.907547950744629,
-      "EyeZ": 30.352258682250977,
+      "EyeX": 24.744325637817383,
+      "EyeY": 5.03481388092041,
+      "EyeZ": 39.883659362792969,
       "LookX": -4.959930419921875,
       "LookY": -4.0139260292053223,
       "LookZ": -38.661514282226563,
@@ -863,8 +747,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -927.64531374870694,
-        "Y": 435.87885802366071
+        "X": -925.03746454632358,
+        "Y": 434.14029188873843
       },
       {
         "Name": "Upper Limits",
@@ -873,7 +757,7 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -932.70761923129987,
+        "X": -931.83833616383879,
         "Y": 576.14029188873837
       },
       {
@@ -1015,26 +899,6 @@
         "Excluded": false,
         "X": 108.95807467019472,
         "Y": 837.41909255218127
-      },
-      {
-        "Name": "RevitCreator",
-        "ShowGeometry": true,
-        "Id": "f2a1a61f7a7f40138defef6f4ce50ab7",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1738.8105058712158,
-        "Y": 584.38076961293814
-      },
-      {
-        "Name": "Code Block",
-        "ShowGeometry": true,
-        "Id": "228d0c184d9641829da93b2e96ec31d8",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1657.6241150415851,
-        "Y": 774.49945229635136
       }
     ],
     "Annotations": [
@@ -1053,14 +917,14 @@
           "12d12bfd5e1f4156af2c34c100609925"
         ],
         "HasNestedGroups": false,
-        "Left": -942.70761923129987,
-        "Top": 362.67885802366072,
-        "Width": 797.08506814296982,
-        "Height": 486.79700168273985,
+        "Left": -941.83833616383879,
+        "Top": 360.94029188873844,
+        "Width": 796.21578507550873,
+        "Height": 488.53556781766213,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 435.87885802366071,
-        "InitialHeight": 427.59700168273986,
+        "InitialTop": 434.14029188873843,
+        "InitialHeight": 429.33556781766214,
         "TextblockHeight": 63.199999999999996,
         "Background": "#FFFF7BAC"
       },
@@ -1113,56 +977,13 @@
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
         "InitialTop": 448.33784768238093,
-        "InitialHeight": 586.50438128451469,
+        "InitialHeight": 683.12123664685191,
         "TextblockHeight": 63.199999999999996,
         "Background": "#FFA4E1FF"
-      },
-      {
-        "Id": "c3a11bf6a37a42adacdac98e9f7d5b26",
-        "Title": "REVIT CREATOR",
-        "DescriptionText": "",
-        "IsExpanded": true,
-        "WidthAdjustment": 0.0,
-        "HeightAdjustment": 0.0,
-        "Nodes": [
-          "f2a1a61f7a7f40138defef6f4ce50ab7",
-          "228d0c184d9641829da93b2e96ec31d8"
-        ],
-        "HasNestedGroups": false,
-        "Left": 1647.6241150415851,
-        "Top": 511.18076961293815,
-        "Width": 544.3863908296305,
-        "Height": 394.31868268341321,
-        "FontSize": 36.0,
-        "GroupStyleId": "4d68be4a-a04d-4945-9dd5-cdf61079d790",
-        "InitialTop": 584.38076961293814,
-        "InitialHeight": 335.11868268341323,
-        "TextblockHeight": 63.199999999999996,
-        "Background": "#FFB9F9E1"
-      },
-      {
-        "Id": "e97f54c0eb7440399c45f9311e2388c8",
-        "Title": "Geometry config",
-        "DescriptionText": null,
-        "IsExpanded": true,
-        "WidthAdjustment": 0.0,
-        "HeightAdjustment": 0.0,
-        "Nodes": [],
-        "HasNestedGroups": false,
-        "Left": 2934.5474015315535,
-        "Top": -2210.9033255730892,
-        "Width": 0.0,
-        "Height": 0.0,
-        "FontSize": 36.0,
-        "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 0.0,
-        "InitialHeight": 0.0,
-        "TextblockHeight": 0.0,
-        "Background": "#FFC1D676"
       }
     ],
-    "X": 309.75445786286258,
-    "Y": 60.24584393027493,
-    "Zoom": 0.2401586424372438
+    "X": 493.45783286717187,
+    "Y": 19.188645850336229,
+    "Zoom": 0.40459968470110969
   }
 }
